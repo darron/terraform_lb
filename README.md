@@ -19,7 +19,7 @@ To use:
 3. cd into the folder: `terraform init`
 4. `terraform plan && terraform apply` - you've created a GCP load balancer.
 5. `terraform destroy` - destroy the GCP load balancer.
-6. Comment the GCP variables in lb.tf, uncomment the AWS variables.
+6. Comment the GCP variables in [lb.tf](lb.tf), uncomment the AWS variables.
 7. Change `source = "./modules/lb/gcp"` to `source = "./modules/lb/aws"`
 8. `terraform plan && terraform apply` - you've created an AWS load balancer.
 9. `terraform destroy` - destroy the AWS load balancer.
